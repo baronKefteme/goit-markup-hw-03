@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="headerclass">
         <div class="containerheader">
         <nav class="headernav">
             <a class="logo" href="./index.html">Web<span class="logostudio">Studio</span></a>
@@ -44,7 +47,7 @@
         </section>
         <section class="sectionbenefit">
             <div class="container">
-            <h2 class="title">Our benefits</h2>
+            <h2 class="titlebenefit">Our benefits</h2>
             <ul class="benefits">
                 <li class="benefitlist">
                     <h3 class="subtitle">Strategy</h3>
@@ -83,23 +86,31 @@
             <ul class="teamlist">
                 <li class="list">
                     <img class="team" src="./images/markguerrero.jpg" alt="Mark Guerrero" width="264" height="260" />
+                    <div class="namejob">
                     <h3 class="teamsubtitle">Mark Guerrero</h3>
                     <p class="teamjob">Product Designer</p>
+                    </div>
                 </li>
                 <li class="list">
                     <img class="team" src="./images/tomford.jpg" alt="Tom Ford" width="264" height="260" />
+                    <div class="namejob">
                     <h3 class="teamsubtitle">Tom Ford</h3>
                     <p class="teamjob">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="list">
                     <img class="team" src="./images/camilagarcia.jpg" alt="Camila Garcia" width="264" height="260" />
+                    <div class="namejob">
                     <h3 class="teamsubtitle">Camila Garcia</h3>
                     <p class="teamjob">Marketing</p>
+                    </div>
                 </li>
                 <li class="list">
                     <img class="team" src="./images/danielwilson.jpg" alt="Daniel Wilson" width="264" height="260" />
+                    <div class="namejob">
                     <h3 class="teamsubtitle">Daniel Wilson</h3>
                     <p class="teamjob">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -110,46 +121,58 @@
             <ul class="portfoliolist">
                 <li class="portfolioitem">
                     <img src="./images/image1.jpg" alt="bankapp" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Banking App</h3>
                     <p class="paragraph">App</p>
+                    </div>
                 </li>
                 <li class="portfolioitem">
                     <img src="./images/image2.jpg" alt="phonepay" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Cashless Payment</h3>
                     <p class="paragraph">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolioitem">
                     <img src="./images/image3.jpg" alt="meditationapp" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Meditation App</h3>
                     <p class="paragraph">App</p>
+                    </div>
                 </li>
                 <li class="portfolioitem">
                     <img src="./images/image4.jpg" alt="taxidriver" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Taxi Service</h3>
                     <p class="paragraph">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolioitem">
                     <img src="./images/image5.jpg" alt="phonewallpapers" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Screen Illustrations</h3>
                     <p class="paragraph">Design</p>
+                    </div>
                 </li>
                 <li class="portfolioitem">
                     <img src="./images/image6.jpg" alt="woman" width="360" height="300" />
+                    <div class="namecategory">
                     <h3 class="oursubtitle">Online Courses</h3>
                     <p class="paragraph">Marketing</p>
+                    </div>
                 </li>
             </ul>
             </div>
         </section>
     </main>
     <footer class="endfooter">
-        <section class="container">
+        <div class="container">
         <a class="logo" href="./index.html">Web<span class="logostudiofooter">Studio</span></a>
         <p class="enddescr">
             Increase the flow of customers and<br> sales for your business with digital<br> marketing & growth
             solutions.
         </p>
-        </section>
+        </div>
     </footer>
 </body>
 
