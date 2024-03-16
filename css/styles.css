@@ -6,6 +6,11 @@ body {
 }
 img{
     display:block;
+    max-width: 100%;
+    height: auto;
+}
+address {
+    font-style: normal;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -241,16 +246,18 @@ inform:last-child{
     padding-right: 15px;
 }
 .containerheader{
-    max-width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     display:flex;
     align-items: center;
 }
 .dopinfo{
     display:flex;
     gap: 40px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 .benefitlist{
     display: flex;
@@ -310,8 +317,13 @@ h1, h2, h3, h4, h5, h6, p, ul{
 }
 .visually-hidden {
     position: absolute;
-    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
