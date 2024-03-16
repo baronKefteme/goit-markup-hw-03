@@ -106,10 +106,6 @@ img{
     gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -244,6 +240,14 @@ inform:last-child{
     padding-left: 15px;
     padding-right: 15px;
 }
+.containerheader{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:flex;
+    align-items: center;
+}
 .dopinfo{
     display:flex;
     gap: 40px;
@@ -296,9 +300,6 @@ h1, h2, h3, h4, h5, h6, p, ul{
 .headerclass{
     border-bottom: 1px solid #e7e9fc
 }
-.titlebenefit{
-    visibility: hidden
-}
 .namejob{
     padding: 32px 0;
 }
@@ -307,6 +308,10 @@ h1, h2, h3, h4, h5, h6, p, ul{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.titlebenefit{
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
